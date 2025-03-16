@@ -2,7 +2,7 @@ GRASP & Polymorphism
 GRASP (General Responsibility Assignment Software Patterns) is a set of design principles that help developers assign responsibilities efficiently in object-oriented systems. Polymorphism, one of these principles, allows different classes to be treated as the same type, enabling flexibility and scalability in software design.
 
 Polymorphism in Action: A Smart Payment System
-Imagine an online shopping platform where customers can pay using different methods—Credit Card, PayPal, or Bitcoin. Instead of handling each payment type separately, we use Polymorphism to define a common interface called Payment. Then, different classes (CreditCardPayment, PayPalPayment, and BitcoinPayment) implement this interface, each processing the payment in its own way.
+Imagine an online shopping platform where customers can pay using different methods—Credit Card, PayPal, or Bitcoin. Instead of handling each payment type separately, we use Polymorphism to define a common interface called Payment. Then, different classes (CreditCardPayment, PayPalPayment) implement this interface, each processing the payment in its own way.
 
 This means our system can easily add new payment methods in the future without modifying existing code, making it scalable, flexible, and future-proof—a perfect example of Polymorphism in software design! 🚀
 
